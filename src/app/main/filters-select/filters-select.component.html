@@ -1,0 +1,12 @@
+<span dropdown (on-toggle)="toggled($event)">
+	<a href id="filter-dropdown" class="btn btn-default btn-md dropdown-menu-btn-filters" dropdownToggle>
+		<!-- <div class="filter-sample" [ngClass]="{ 'filter-sample-selected': filterSettings.selectedFilterIndex > 0 }" ></div> -->
+	  	<span class="filter-label pull-left">{{filterSettings.filters[filterSettings.selectedFilterIndex].name}}</span>
+<span class="pull-right"><img class="svg-icon" src="assets/svg/arrow_drop_down.svg"></span>
+</a>
+<ul class="dropdown-menu dropdown-menu-filters shadow-dropped-down" aria-labelledby="filter-dropdown">
+    <li *ngFor="let filter of filterSettings.filters; let i = index" class="dropdown-menu-item-filters">
+        <a class="dropdown-item pointer" (click)="onSelectFilter(i)">{{filter.name}}</a>
+    </li>
+</ul>
+</span>

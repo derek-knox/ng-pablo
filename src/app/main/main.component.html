@@ -1,0 +1,64 @@
+<div class="row-cols">
+    <div class="col-shared col-left">
+
+        <!-- Images Component -->
+        <app-control-panel label="Images">
+            <app-control-panel-button>
+                <button class="btn btn-flat btn-xs pull-right" (click)="onShuffleImages()">Shuffle</button>
+            </app-control-panel-button>
+            <app-control-panel-body>
+                <app-image-select [imageSettings]="imageSettings" (imageSettingsChange)="onImageSettingsChange($event)"></app-image-select>
+            </app-control-panel-body>
+        </app-control-panel>
+    </div>
+    <div class="col-shared col-middle">
+
+        <!-- Canvas Component -->
+        <app-control-panel label="Canvas" classes="control-panel-canvas">
+            <app-control-panel-button>
+                <button class="btn btn-flat btn-xs pull-right" (click)="onCanvasReposition()">Reposition</button>
+            </app-control-panel-button>
+            <app-control-panel-body>
+                <app-canvas-select [imageSettings]="imageSettings" [canvasSettings]="canvasSettings" [sizeSettings]="sizeSettings" [textSettings]="textSettings" [logoSettings]="logoSettings"></app-canvas-select>
+            </app-control-panel-body>
+        </app-control-panel>
+    </div>
+    <div class="col-shared col-right">
+
+        <!-- Sizes Component -->
+        <app-control-panel label="Sizes">
+            <app-control-panel-body>
+                <app-sizes-select [sizeSettings]="sizeSettings" (sizeSettingsChange)="onSizeSettingsChange($event)"></app-sizes-select>
+            </app-control-panel-body>
+        </app-control-panel>
+
+        <!-- Filters Component -->
+        <!-- <app-control-panel label="Filters">
+            <app-control-panel-button>
+                <button class="btn btn-flat btn-xs pull-right" (click)="onFilterReset()">Reset</button>
+            </app-control-panel-button>
+            <app-control-panel-body>
+                <app-filters-select [filterSettings]="filterSettings" (filterSettingsChange)="onFilterSettingsChange($event)"></app-filters-select>
+            </app-control-panel-body>
+        </app-control-panel> -->
+
+        <!-- Text Component -->
+        <app-control-panel label="Text">
+            <app-control-panel-body>
+                <app-text-select [textSettings]="textSettings" (textSettingsChange)="onTextSettingsChange($event)"></app-text-select>
+            </app-control-panel-body>
+        </app-control-panel>
+
+        <!-- Logo Component -->
+        <app-control-panel label="Logo">
+            <app-control-panel-body>
+                <app-logo-select [logoSettings]='logoSettings' (logoSettingsChange)="onLogoSettingsChange($event)"></app-logo-select>
+            </app-control-panel-body>
+        </app-control-panel>
+
+        <!-- Download Button -->
+        <button class="btn btn-block btn-lg btn-core-cta text-center" (click)="onDownload()">Share & Download</button>
+    </div>
+</div>
+
+<app-edit-text [textSettings]="textSettings"></app-edit-text>

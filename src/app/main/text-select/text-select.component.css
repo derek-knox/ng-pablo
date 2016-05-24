@@ -1,0 +1,49 @@
+.text-select-container {
+    text-align: center;
+}
+
+.text-select-container-center-spacer {
+    margin: 0 11px;
+}
+
+.text-type {
+    background-color: #eee;
+    width: 52px;
+    height: 52px;
+}
+
+.text-type-label {
+    margin: 5px auto 0;
+    font-size: 8pt;
+    opacity: .5;
+}
+
+.text-type-label-selected {
+    opacity: 1;
+}
+
+.add-quote-label {
+    font-size: 10pt;
+}
+
+.quotes .btn {
+    padding: 0;
+    margin: 0;
+    width: 23px;
+    height: 23px;
+}
+
+.quotes .svg-icon {
+    margin-top: -3px;
+    opacity: 1;
+}
+
+.svg-icon {
+    width: 12px;
+    margin-top: 12px;
+    opacity: .5;
+}
+
+.selected .svg-icon {
+    opacity: 1;
+}

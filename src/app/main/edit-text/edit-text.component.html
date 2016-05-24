@@ -1,0 +1,22 @@
+<div class="edit-text-container shadow-dropped-down" *ngIf="textSettings.selectedModelUniqueId > -1">
+    <button class="ctrl-font pull-left" (mouseover)="onShowFontOptions()" (click)="onShowFontOptions()" [style.fontFamily]="textSettings.options.fonts[editableTextComponentCurrent.model.fontIndex].family">{{textSettings.options.fonts[editableTextComponentCurrent.model.fontIndex].name}}</button>
+    <button class="pull-right" (mouseover)="onShowColorOptions()" (click)="onShowColorOptions()">
+        <div class="color-tile" [style.backgroundColor]="textSettings.options.colors[editableTextComponentCurrent.model.colorIndex]"></div>
+    </button>
+    <button class="pull-right" (mouseover)="onCloseOptions()" (click)="onUpdateAlign()"><img class="svg-icon" [src]="'assets/svg/' + textSettings.options.align[editableTextComponentCurrent.model.alignIndex] + '.svg'"></button>
+    <button class="pull-right" (mouseover)="onCloseOptions()" (click)="onUpdateSize()"><img class="svg-icon" src="assets/svg/format_size.svg"></button>
+    <button class="pull-right" (mouseover)="onCloseOptions()" (click)="onToggleItalic()"><em>i</em></button>
+    <button class="pull-right" (mouseover)="onCloseOptions()" (click)="onToggleBold()"><strong>B</strong></button>
+
+    <div class="color-dropdown" *ngIf="isShowColors">
+        <button class="color shadow-dropped-down" *ngFor="let color of textSettings.options.colors; let i = index;" (mouseover)="onUpdateColor(i)">
+            <div class="color-tile" [style.backgroundColor]="color"></div>
+        </button>
+    </div>
+
+    <div class="font-dropdown" *ngIf="isShowFonts">
+        <button class="font shadow-dropped-down" *ngFor="let font of textSettings.options.fonts; let i = index;" (mouseover)="onUpdateFont(i)">
+            <div class="font-tile font-{{i}}" [style.fontFamily]="font.family">{{font.name}}</div>
+        </button>
+    </div>
+</div>

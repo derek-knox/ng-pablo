@@ -1,0 +1,4 @@
+<div class="editable-text">
+    <input #textInput type="text" [(ngModel)]="model.text" [ngClass]="{ 'isBold': model.isBold, 'isItalic': model.isItalic, 'text-left': model.alignIndex === 0, 'text-center': model.alignIndex === 1, 'text-right': model.alignIndex === 2, 'size-normal': model.sizeIndex === 0, 'size-large': model.sizeIndex === 1, 'size-largest': model.sizeIndex === 2 }" [style.color]="options.colors[model.colorIndex]" [style.fontFamily]="options.fonts[model.fontIndex].family">
+    <div class="drag-overlay" (dblclick)="onDoubleClick()" [hidden]="isEditing"></div>
+</div>

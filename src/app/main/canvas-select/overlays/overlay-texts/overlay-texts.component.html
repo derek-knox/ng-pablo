@@ -1,0 +1,5 @@
+<div class="overlay" [style.width.px]="sizeSettings.sizes[sizeSettings.selectedSizeIndex].width" [style.height.px]="sizeSettings.sizes[sizeSettings.selectedSizeIndex].height">
+    <app-editable-text class="overlay-bounds" *ngIf="textSettings.hasHeader" move-clamped-to-parent [style.width.px]="300" [style.height.px]="35" [model]="textSettings.models[0]" [options]="textSettings.options" [ngClass]="{ selected: 0 === textSettings.selectedModelUniqueId }" (mousedown)="onSelected(0)"></app-editable-text>
+    <app-editable-text class="overlay-bounds" *ngIf="textSettings.hasBody" move-clamped-to-parent [style.width.px]="300" [style.height.px]="35" [model]="textSettings.models[1]" [options]="textSettings.options" [ngClass]="{ selected: 1 === textSettings.selectedModelUniqueId }" (mousedown)="onSelected(1)"></app-editable-text>
+    <app-editable-text class="overlay-bounds" *ngIf="textSettings.hasCaption" move-clamped-to-parent [style.width.px]="300" [style.height.px]="35" [model]="textSettings.models[2]" [options]="textSettings.options" [ngClass]="{ selected: 2 === textSettings.selectedModelUniqueId }" (mousedown)="onSelected(2)"></app-editable-text>
+</div>

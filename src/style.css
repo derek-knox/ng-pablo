@@ -1,0 +1,215 @@
+/* Native */
+
+body {
+    background-color: #fff;
+}
+
+hr {
+    border-color: #eee;
+}
+
+canvas {
+    background: #eee;
+    -webkit-transition: height 1s linear;
+    transition: height 1s linear;
+}
+
+canvas,
+img {
+    border-radius: 4px;
+}
+
+input {
+    border: none;
+    padding: 8px;
+    margin-bottom: 4px;
+    font-size: 10pt;
+    text-align: center;
+    background-color: #eee;
+    width: 100%;
+}
+
+input[type=file] {
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+input::-moz-selection {
+    color: #fff;
+    background: #333;
+}
+
+input::selection {
+    color: #fff;
+    background: #333;
+}
+
+::-webkit-file-upload-button {
+    cursor: pointer;
+}
+
+* {
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+*:focus {
+    outline: none;
+}
+
+
+/* Core Layout */
+
+.row-cols,
+.nav-wrapper {
+    min-width: 900px;
+}
+
+.nav-wrapper {
+    padding: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.row-cols {
+    text-align: center;
+}
+
+.col-shared {
+    display: inline-table;
+    text-align: left;
+}
+
+.col-left,
+.col-right {
+    width: 220px;
+    height: 100%;
+}
+
+.col-middle {
+    width: 550px;
+    height: 100%;
+}
+
+
+/* Basic Display */
+
+.inline-block {
+    display: inline-block;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.selected {
+    border: 1px solid #000;
+    z-index: 1;
+}
+
+.disabled {
+    opacity: .5;
+}
+
+.btn {
+    background-color: #eee;
+    border-radius: 2px;
+    font-size: 10pt;
+}
+
+.btn-flat {
+    font-size: 10pt;
+    border-radius: 1px;
+}
+
+.btn-xs {
+    padding: auto 8px;
+}
+
+.btn-core-cta {
+    width: 220px;
+    padding: 20px;
+    font-size: 12pt;
+    background-color: #fff;
+}
+
+.svg-icon {
+    width: 18px;
+}
+
+
+/* Shadow */
+
+.shadow {
+    -webkit-box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.3);
+    box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.3);
+}
+
+.shadow-dropped-down {
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.35);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.35);
+    box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.35);
+}
+
+
+/* Control Panels */
+
+.control-panel {
+    width: 220px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.control-panel h1 {
+    font-size: 10pt;
+    margin: 0 0 15px 2px;
+    font-style: oblique;
+}
+
+
+/* Canvas Input */
+
+.control-panel-canvas {
+    width: 530px;
+    margin: 0 auto;
+}
+
+.overlay {
+    pointer-events: none;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.overlay-bounds {
+    pointer-events: auto;
+    cursor: move;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* File Input */
+
+.upload-file-container {
+    position: relative;
+}

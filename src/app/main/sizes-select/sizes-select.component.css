@@ -1,0 +1,40 @@
+.size-select-container {
+    text-align: center;
+}
+
+.size-select-container-center-spacer {
+    margin: 0 7px;
+}
+
+.pinterest,
+.instagram,
+.twitter-and-facebook {
+    background-color: #eee;
+    padding: 0;
+}
+
+.pinterest {
+    width: 34px;
+    height: 50px;
+}
+
+.instagram {
+    width: 50px;
+    height: 50px;
+}
+
+.twitter-and-facebook {
+    width: 80px;
+    height: 50px;
+}
+
+.svg-icon {
+    width: 12px;
+    margin: 0 4px;
+    padding-top: 18px;
+    opacity: .5;
+}
+
+.selected .svg-icon {
+    opacity: 1;
+}

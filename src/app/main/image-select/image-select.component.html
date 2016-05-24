@@ -1,0 +1,13 @@
+<input type="text" placeholder="Filter Images" value="{{imageSettings.filterQuery}}" (keyup)="onKeyUp($event)">
+<div class="image-list">
+    <div class="image-container" *ngFor="let img of (imageSettings.images | indexOf : ['name', 'tags'] : imageSettings.filterQuery);">
+        <img class="image pointer" [src]="processImgUrl(img.url)" [alt]="img.name" [ngClass]="{ selected: img.uniqueId === imageSettings.selectedImageUniqueId }" selectable (isSelectedChange)="onIsSelectedChange(img.uniqueId)">
+    </div>
+</div>
+
+<hr>
+
+<div class="upload-file-container">
+    <input type="file" (change)="onSelectFileChange($event)" title=" " />
+    <div class="btn btn-block btn-lg text-center">Upload Image</div>
+</div>

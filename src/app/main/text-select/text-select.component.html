@@ -1,0 +1,20 @@
+<div class="text-select-container">
+    <div class="inline-block text-center pointer" selectable (isSelectedChange)="onIsSelectedChange($event)">
+        <div class="btn text-type" [ngClass]="{ selected: selectableHeader && selectableHeader.isSelected }"><img class="svg-icon" src="assets/svg/check.svg"></div>
+        <p class="text-type-label text-center" [ngClass]="{ 'text-type-label-selected': selectableHeader && selectableHeader.isSelected }">Header</p>
+    </div>
+    <div class="inline-block text-center pointer text-select-container-center-spacer" selectable (isSelectedChange)="onIsSelectedChange($event)">
+        <div class="btn text-type" [ngClass]="{ selected: selectableBody && selectableBody.isSelected }"><img class="svg-icon" src="assets/svg/check.svg"></div>
+        <p class="text-type-label text-center" [ngClass]="{ 'text-type-label-selected': selectableBody && selectableBody.isSelected }">Body</p>
+    </div>
+    <div class="inline-block text-center pointer" selectable (isSelectedChange)="onIsSelectedChange($event)">
+        <div class="btn text-type" [ngClass]="{ selected: selectableCaption && selectableCaption.isSelected }"><img class="svg-icon" src="assets/svg/check.svg"></div>
+        <p class="text-type-label text-center" [ngClass]="{ 'text-type-label-selected': selectableCaption && selectableCaption.isSelected }">Caption</p>
+    </div>
+</div>
+<hr>
+<div [ngClass]="{ disabled: !canAddQuotes }" class="quotes">
+    <span class="add-quote-label">Add Quotes</span>
+    <button type="button" class="btn btn-default btn-xs pull-right" (click)="onQuoteNext()" [disabled]="!canAddQuotes"><img class="svg-icon" src="assets/svg/arrow_forward.svg"></button>
+    <button type="button" class="btn btn-default btn-xs pull-right" (click)="onQuotePrev()" [disabled]="!canAddQuotes"><img class="svg-icon" src="assets/svg/arrow_back.svg"></button>
+</div>

@@ -1,0 +1,14 @@
+.logo {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.logo img {
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

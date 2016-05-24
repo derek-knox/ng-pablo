@@ -1,0 +1,759 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"zk",
+				"ZKorthographicSizeTo(float to, float duration = 0.3f)	ITween<float>"
+			],
+			[
+				"Vec",
+				"Vector3	Vector3"
+			],
+			[
+				"Ve",
+				"Vector3	Vector3"
+			],
+			[
+				"pre",
+				"prefabDigitBlocks	DigitBlocks"
+			],
+			[
+				"Ins",
+				"Instantiate(Object original, Vector3 position, Quaternion rotation)	Object"
+			],
+			[
+				"for",
+				"foreach	foreach"
+			],
+			[
+				"hit",
+				"hitList"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"retu",
+				"returnVal"
+			],
+			[
+				"hig",
+				"highlightBar"
+			],
+			[
+				"update",
+				"updateHighlight"
+			],
+			[
+				"list",
+				"listHits"
+			],
+			[
+				"high",
+				"highlight-bar"
+			],
+			[
+				"clean",
+				"cleanTemps"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"temp",
+				"tempInherited"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"defa",
+				"defaultSettings"
+			],
+			[
+				"backgroud",
+				"background-color"
+			],
+			[
+				"Edi",
+				"EditorGUILayout	EditorGUILayout"
+			],
+			[
+				"pare",
+				"parentOffsetDiff"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"Sc",
+				"ScrubbingSpeed"
+			],
+			[
+				"slider",
+				"sliderWidth"
+			],
+			[
+				"docu",
+				"documentOverlay"
+			],
+			[
+				"inn",
+				"innerHTML"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"per",
+				"percentY"
+			],
+			[
+				"perc",
+				"percentX"
+			],
+			[
+				"cu",
+				"currAmount"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"html",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: snippet_unity_class"
+			],
+			[
+				"install",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Omni",
+				"OmniSharpSublime: Goto Definition"
+			],
+			[
+				"Omnishar",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"Oni",
+				"OmniSharpSublime: Clean"
+			],
+			[
+				"OmnisharpSublime: Reloa",
+				"OmniSharpSublime: Reload Solution"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 310.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/inetpub/angular2experiment/ng-pablo"
+	],
+	"file_history":
+	[
+		"/C/inetpub/angular2experiment/ng-pablo og/ng-pablo.sublime-project",
+		"/C/inetpub/angular2experiment/ng-pablo og/ng-pablo.sublime-workspace",
+		"/C/inetpub/derekknox.com/notes/positioning/index.php",
+		"/C/Users/dknox/Docs/Projects/Unity/spike - Number Countdown/Assets/Scripts/DigitBlock.cs",
+		"/C/Users/dknox/Docs/Projects/Unity/spike - Number Countdown/Assets/Scripts/DigitBlocks.cs",
+		"/C/Users/dknox/Docs/Projects/Unity/spike - Number Countdown/Assets/Scripts/DigitBlocksContainer.cs",
+		"/C/Users/dknox/Docs/Projects/Unity/spike - Number Countdown/Assets/DigitBlock.cs",
+		"/C/Users/dknox/Docs/Projects/Unity/spike - Number Countdown/spike - Number Countdown.sln",
+		"/C/Users/dknox/Docs/Projects/Unity/spike - Number Countdown/spike - Number Countdown.sublime-project",
+		"/C/Users/dknox/Docs/Projects/Unity/Crossy Word/Crossy Word.sublime-project",
+		"/C/inetpub/derekknox.com/articles/angular-2-move-and-nudgeable-directive/index.php",
+		"/C/inetpub/derekknox.com/articles/angular-2-index-of-pipe/index.php",
+		"/C/inetpub/derekknox.com/articles/pablo-image-editing-app-in-angular-2/index.php",
+		"/C/inetpub/derekknox.com/articles/index.php",
+		"/C/inetpub/derekknox.com/articles/angular-2-move-and-nudgeable-directive/app/index.html",
+		"/C/inetpub/derekknox.com/articles/pablo-image-editing-app-in-angular-2/pablo/system-config.js",
+		"/C/inetpub/derekknox.com/articles/pablo-image-editing-app-in-angular-2/pablo/index.html",
+		"/C/inetpub/angular2experiment/ng-buffer-pablo/angular-2-experiment.sublime-workspace",
+		"/C/inetpub/angular2experiment/ng-buffer-pablo/angular-2-experiment.sublime-project",
+		"/C/inetpub/derekknox.com/footer-open.php",
+		"/C/inetpub/derekknox.com/articles/pablo-image-editing-app-in-angular-2/dist/index.php",
+		"/C/inetpub/angular2experiment/ng-buffer-pablo/dist/index.html",
+		"/C/inetpub/angular2experiment/ng-buffer-pablo/src/index.html",
+		"/C/inetpub/derekknox.com/articles/deep-linking-dynamic-anchors-in-angularjs/index.php",
+		"/C/inetpub/derekknox.com/work/emerald/index.php",
+		"/C/inetpub/derekknox.com/work/index.php",
+		"/C/inetpub/derekknox.com/head-open.php",
+		"/C/inetpub/derekknox.com/index.php",
+		"/C/inetpub/derekknox.com/assets/css/core/style.css",
+		"/C/inetpub/derekknox.com/assets/js/core/derekknox.js",
+		"/C/inetpub/derekknox.com/page-end.php",
+		"/C/inetpub/derekknox.com/temp/biz/index.php",
+		"/C/inetpub/derekknox.com/temp/biz/assets/css/biz.css",
+		"/C/inetpub/derekknox.com/temp/biz/assets/js/biz.js",
+		"/C/inetpub/derekknox.com/articles/30-days-of-design-experiments/index.php",
+		"/C/Users/dknox/Docs/Projects/Unity/spike - Emmisive Material Experiment/Assets/Scripts/ScaleOscillate.cs",
+		"/C/Users/dknox/Docs/Projects/Unity/spike - Emmisive Material Experiment/Assets/Scale Oscillate.cs",
+		"/C/Users/dknox/Docs/Projects/Unity/spike - Emmisive Material Experiment/Assets/Scale Oscilate.cs",
+		"/C/Users/dknox/Docs/Projects/Python Scripts/SandpointFactualBusinesses-1-500.json",
+		"/C/Users/dknox/Docs/Projects/Python Scripts/ClarkstonFactualBusinesses-1-500.json",
+		"/C/Users/dknox/Docs/Projects/Python Scripts/VancouverFactualBusinesses-1-500.json",
+		"/C/Users/dknox/Docs/Projects/Python Scripts/BoiseFactualBusinesses-1-500.json",
+		"/C/Users/dknox/Docs/Projects/Python Scripts/EugeneFactualBusinesses-1-100.json",
+		"/C/Users/dknox/Docs/Projects/Python Scripts/LewistonFactualBusinesses-1-500.json",
+		"/C/Users/dknox/Docs/Projects/Python Scripts/McCallFactualBusinesses-1-500.json",
+		"/C/Users/dknox/Docs/Projects/Python Scripts/KelloggFactualBusinesses-1-100.json",
+		"/C/inetpub/derekknox.com/temp/biz/js/index.js",
+		"/C/inetpub/derekknox.com/temp/biz/css/style.css",
+		"/C/inetpub/derekknox.com/temp/biz/index.html",
+		"/C/inetpub/derekknox.com/temp/biz/json/ClarkstonFactualBusinesses-1-500.js",
+		"/C/Users/dknox/Docs/Projects/Python Scripts/BoiseFactualBusinesses-1-50.json",
+		"/C/inetpub/derekknox.com/Gruntfile.js",
+		"/C/inetpub/derekknox.com/temp/biz/json/KelloggFactualBusinesses-1-100.js",
+		"/C/inetpub/derekknox.com/temp/biz/json/KelloggFactualBusinesses-1-100.json",
+		"/C/inetpub/derekknox.com/temp/biz/json/McCallFactualBusinesses-1-500.js",
+		"/C/inetpub/crossyword.com/index.html",
+		"/C/inetpub/crossyword.com/press/index.html",
+		"/C/inetpub/derekknox.com/head-social.php",
+		"/C/inetpub/derekknox.com/about/index.php",
+		"/C/inetpub/derekknox.com/nav.php",
+		"/C/inetpub/derekknox.com/sitemap/index.php",
+		"/C/inetpub/derekknox.com/sitemap.xml",
+		"/C/inetpub/derekknox.com/portfolio/index.php",
+		"/C/Users/dknox/Docs/GitHub/Slurve-js/README.md",
+		"/C/inetpub/derekknox.com/articles/slurve-js/index.php",
+		"/C/inetpub/slurvejs/Gruntfile.js",
+		"/C/inetpub/slurvejs/index.html",
+		"/C/Users/dknox/Docs/Projects/Web/Sites/unitytip.com/source/index.html",
+		"/C/inetpub/derekknox.com/articles/rad-four-process/index.php",
+		"/C/inetpub/derekknox.com/articles/anatomy-of-visual-design/index.php",
+		"/C/Users/dknox/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/inetpub/derekknox.com/lab/360slider/index.php",
+		"/C/inetpub/derekknox.com/lab/index.php",
+		"/C/inetpub/derekknox.com/lab/360slider/assets/css/360slider.css",
+		"/C/inetpub/derekknox.com/footer-close.php",
+		"/C/inetpub/derekknox.com/products/crossyword/index.php",
+		"/C/inetpub/derekknox.com/assets/css/prod.css",
+		"/C/inetpub/derekknox.com/assets/css/tidy.css",
+		"/C/inetpub/derekknox.com/.gitignore",
+		"/C/Users/dknox/Docs/Projects/Unity/Crossy Word/.gitignore",
+		"/C/inetpub/derekknox.com/assets/css/prod-tidy.css",
+		"/C/inetpub/derekknox.com/index.html",
+		"/C/inetpub/derekknox.com/assets/css/core/libs/bootstrap.min.css",
+		"/C/Users/dknox/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/dknox/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/inetpub/derekknox.com/articles/slurve-js/assets/js/slurve.beta.js",
+		"/C/inetpub/derekknox.com/articles/natural-sort-in-angularjs/index.php",
+		"/C/inetpub/derekknox.com/not-found/index.php",
+		"/C/inetpub/derekknox.com/404.php",
+		"/C/inetpub/derekknox.com/.htaccess",
+		"/C/inetpub/derekknox.com/web.config",
+		"/C/inetpub/derekknox.com/info.php",
+		"/C/inetpub/derekknox.com/status/reset/index.php",
+		"/C/inetpub/derekknox.com/status/status.php",
+		"/C/inetpub/derekknox.com/status.php",
+		"/C/inetpub/derekknox.com/products/index.php",
+		"/C/inetpub/derekknox.com/articles/js-bracket-notation-practical-examples/index.php",
+		"/C/inetpub/derekknox.com/articles/unity-collision-detection-in-25s/index.php",
+		"/C/inetpub/derekknox.com/articles/slurve-js-advanced-setup/index.php",
+		"/C/inetpub/derekknox.com/articles/scrubbing-speed-js/index.php",
+		"/C/inetpub/derekknox.com/articles/material-design-overscroll-in-vanilla-js/index.php",
+		"/C/inetpub/derekknox.com/articles/lazy-loading-carousel-images-in-angular-bootstrap/index.php",
+		"/C/inetpub/derekknox.com/articles/execute-and-exit/index.php",
+		"/C/inetpub/derekknox.com/articles/angularjs-window-events-service/index.php",
+		"/C/inetpub/derekknox.com/articles/an-efficient-event-delegation-approach-in-unity/index.php",
+		"/C/inetpub/derekknox.com/lab/tripletoggle/index.php",
+		"/C/inetpub/derekknox.com/products/timertimer/index.php",
+		"/C/inetpub/derekknox.com/products/tagmymoney/index.php",
+		"/C/inetpub/derekknox.com/products/noded/index.php",
+		"/C/inetpub/derekknox.com/products/basicbatcher/index.php",
+		"/C/inetpub/derekknox.com/products/bankbalance/index.php",
+		"/C/inetpub/derekknox.com/lab/weave/index.php",
+		"/C/inetpub/derekknox.com/lab/treesketcher/index.php",
+		"/C/inetpub/derekknox.com/lab/merry/index.php",
+		"/C/inetpub/derekknox.com/lab/mauledmindmotif/index.php",
+		"/C/inetpub/derekknox.com/lab/materialdesignoverscrolljs/index.php",
+		"/C/inetpub/derekknox.com/lab/iflask/index.php",
+		"/C/inetpub/derekknox.com/lab/houseofcards/index.php",
+		"/C/inetpub/derekknox.com/lab/generativelures/index.php",
+		"/C/inetpub/derekknox.com/lab/flyingjellyfisheyes/index.php",
+		"/C/inetpub/derekknox.com/lab/evowall/index.php",
+		"/C/inetpub/derekknox.com/lab/crossywordleveleditor/index.php",
+		"/C/inetpub/derekknox.com/lab/braindroplabspattern/index.php",
+		"/C/inetpub/derekknox.com/lab/bioluminescenceswarm/index.php",
+		"/C/inetpub/derekknox.com/lab/arcslider/index.php",
+		"/C/inetpub/derekknox.com/lab/3Delements/index.php",
+		"/C/inetpub/derekknox.com/lab/10thousand/index.php",
+		"/C/inetpub/derekknox.com/head-close.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"C:\\inetpub\\derekknox.com\\articles",
+			"C:\\inetpub\\derekknox.com",
+			"C:\\inetpub\\unity-dash",
+			"C:\\inetpub\\unity-dash\\assets\\js\\scripts",
+			"C:\\inetpub\\unity-dash\\views",
+			"C:\\inetpub\\unity-dash",
+			"C:\\inetpub\\unity-dash\\assets",
+			"C:\\inetpub\\unity-dash",
+			"C:\\inetpub\\derekknox.com\\temp\\unity-api-exercise\\versatile-dashboard-theme-master\\app",
+			"C:\\inetpub\\derekknox.com\\temp\\unity-api-exercise\\versatile-dashboard-theme-master\\app\\views",
+			"C:\\inetpub\\derekknox.com\\temp\\unity-api-exercise\\versatile-dashboard-theme-master\\app\\styles",
+			"C:\\inetpub\\derekknox.com\\temp\\unity-api-exercise\\versatile-dashboard-theme-master\\app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"WIDTH",
+			"digitBlockNumbers",
+			"digitBlocks",
+			"my-img",
+			"Angular 2 IndexOfPipe",
+			"Pablo - Image Editing App in Angular 2",
+			"C:/inetpub/angular2experiment/ng-buffer-pablo/tmp/broccoli_type_script_compiler-input_base_path-z2LJ0O2N.tmp/0/system-config.js.map",
+			"Pablo Image Editing App in Angular 2",
+			"Step",
+			"AngularJS WindowEventsService - Centralized Throttled Window Events",
+			"description",
+			"myImg",
+			"any dynamic value(s)",
+			"obj",
+			"ogj",
+			"data object",
+			"any dynamic values",
+			"-markup",
+			"<script",
+			"-markup",
+			"AngularJS WindowEventsService - Centralized Throttled Window Events",
+			"biz.js:27 ",
+			"'",
+			"Link not live",
+			"twitter",
+			"meta property=\"og:title\"",
+			"#99cc33",
+			"No Link (no longer live)",
+			"unitytip",
+			"Lead Interactive Developer",
+			"lead ",
+			"Home",
+			"example-curved",
+			"sharp",
+			"<em>slurved</em>",
+			"gameobject",
+			"Nectar Music Icon Experiment",
+			"nectar-music-icons-experiment-",
+			"’",
+			"’t",
+			"’s",
+			"border: none;",
+			"flush",
+			"borderless",
+			"border",
+			"The&#160;Anatomy&#160;of&#160;Visual&#160;Design&#160;-&#160;Elements,&#160;Principles,&#160;and&#160;Constructs",
+			"The Anatomy of Visual Design - Elements, Principles, and Constructs",
+			"unveil",
+			"Press%20Request",
+			"h3",
+			"line-h",
+			"caps",
+			".main",
+			"500+",
+			"nav-icon3",
+			"highlight-bar",
+			".core-page img",
+			"</script></code",
+			"px",
+			" type=\"prism-html-markup\"",
+			" type=\"prism-css\"",
+			" ",
+			" type=\"prism-html-markup\"",
+			" ",
+			"currY < dotS",
+			"<span class=\"token punctuation\">&lt;</span>CIRCLE</span><span class=\"token punctuation\">&gt;</span>",
+			" ",
+			"img",
+			"slurve-classes=\"",
+			"slurve=\"",
+			"<ul",
+			"</br>",
+			"<br",
+			" type=\"image/png\"",
+			"\"active\"",
+			" type=\"image/png\"",
+			"type=\"image/png\"",
+			"Slurve | ",
+			"svg",
+			"Your DOM here.",
+			"border",
+			"borderless",
+			"dom",
+			"Intermediate Setup",
+			"intermediate-setup",
+			"JS",
+			"-1",
+			"slurve-gradient",
+			"advanced",
+			"ScrubbingSpeed.js - Variable Scrubbing Speed Slider",
+			"your DOM here",
+			"Slurve",
+			"in Your UI",
+			"slurve-style-2",
+			"Hi",
+			"h6",
+			"Slurve.js",
+			"co-ordinate",
+			"Style Setup",
+			"style-setup",
+			"improved",
+			"improved-setup",
+			"start",
+			"Getting Started",
+			"h2",
+			"<h2",
+			"ScrubbingSpeed.js - Variable Scrubbing Speed Slider",
+			"grunt-contrib-watch",
+			"collapsed",
+			"2015",
+			"[at] derekknox.com",
+			"derekknox",
+			"derekknox@derekknox",
+			"interactive developer",
+			"prism.css",
+			"swfobject.js",
+			"prism.js",
+			"assets/js/swfobject.js",
+			"swfobject.js",
+			"ga.js",
+			": What and Why",
+			"Delegator",
+			"unity-collision-detection-without-physics-in-25s",
+			"Unity Collision Detection in 25 Seconds",
+			"Effecient Event Delegation in Unity",
+			"An Effecient Event Delegation",
+			"#eee",
+			"li "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"w",
+			"digitBlocks",
+			"digitBlockNumbers",
+			"Angular 2 IndexOf Pipe",
+			"Angular 2 Move and Nudgeable Directive",
+			"Pablo - Image Editing App in Angular 2",
+			"Part",
+			"Pablo Image Editing App in Angular 2",
+			"location",
+			"my-img",
+			"any dynamic value",
+			"imgModel",
+			"model",
+			"any dynamic value(s)",
+			"Angular 2 IndexOfPipe",
+			"",
+			"\"",
+			"Link no longer live",
+			"Link not live",
+			"example-curve",
+			"slant",
+			"Vocabulist Icon Sketches",
+			"vocabulist-icons-experiment-",
+			"'",
+			"'t",
+			"'s",
+			"flush",
+			"30&#160;Days&#160;of&#160;Design&#160;Experiments",
+			"30 Days of Design Experiments",
+			"Request%20Press%20Copy",
+			"h4",
+			"uppercase",
+			"nav-icon",
+			"",
+			"&#160;",
+			"",
+			"&#160;",
+			"&lt;circle&gt;",
+			"&#160;",
+			"data-slurve-classes=\"",
+			"data-slurve=\"",
+			"<br>",
+			"",
+			"'class=\"active\"'",
+			"",
+			"Your HTML here.",
+			"Basic Style",
+			"basic-style",
+			"JavaScript",
+			"-8",
+			"-7",
+			"-6",
+			"-5",
+			"-4",
+			"-3",
+			"-2",
+			"slurve.js - Beautiful Slants and Curves in Web UIs",
+			"in Web UIs",
+			"slurve-style-gradient",
+			"Slurve",
+			"slurve.js",
+			"coordinate",
+			"intermediate-setup",
+			"style-setup",
+			"basic-setup",
+			"Basic Setup",
+			"Slurve.js - Beautiful Slants and Curves in Your UI",
+			"libs/prism.css",
+			"assets/js/libs/swfobject.js",
+			"",
+			"an-efficient-event-delegation-approach-in-unity",
+			"An Efficient Event Delegation Approach in Unity",
+			"/scripts/",
+			"assets/views",
+			"js/views",
+			"js/app",
+			"dashApp",
+			"getFocusedEditSubGroupAndInherited",
+			"focusedSubGroup",
+			"settingsGroupInFocusList",
+			"ModelsSrvc",
+			"\"setting_id\": \"2\"",
+			"\"setting_id\": \"1\"",
+			"\"setting_id\": \"0\"",
+			"settingsGroupInFocus",
+			"settings",
+			"stats",
+			"Enemy Respawn Time",
+			"Maximum Enemy Count",
+			"\"settings_list\"",
+			"settings_list",
+			"http://www.api.domain.com",
+			"settings",
+			"\"id\": \"1\"",
+			"\"id\": \"0\"",
+			"response",
+			"	\"status\": { \"message\": \"Success\" },",
+			"\\t\"status\": { \"code\": 1, \"message\": \"Success\" },",
+			"\"status\": { \"code\": 1, \"message\": \"Success\" },",
+			"\"status\": { \"code\": 1,\"message\": \"Success\" },",
+			"\"status\": { \"code\": 1, \"message\": \"Success\" },",
+			"id",
+			"settings",
+			"",
+			"class=\"ss-label\"",
+			"knobHeight",
+			"knobWidth",
+			"scrubbing-speed-slider",
+			"<em>Bad</em>",
+			"<em>Good</em>",
+			"assets/img/test.png",
+			"<img src=\"xxx\" alt=\"\" class=\"img-responsive\">",
+			"scrubbing-speed-js",
+			"ScrubbingSpeed.js - Variable Scrubbing Speed Slider",
+			".4s",
+			"Scrub",
+			"offsetScrubX",
+			"trackHeight",
+			"trackWidth",
+			"scrubbing-speed-container",
+			"data-ss-color",
+			"$ss",
+			"window.innerHeight",
+			"document",
+			"$ss"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "ng-pablo.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\inetpub\\angular2experiment\\ng-buffer-pablo\\ng-buffer-pablo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 340.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

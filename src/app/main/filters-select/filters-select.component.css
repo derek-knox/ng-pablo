@@ -1,0 +1,42 @@
+.dropdown-menu-filters {
+    max-height: 220px;
+    margin-top: 19px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.dropdown-menu-item-filters {
+    padding: 0;
+}
+
+.dropdown-item {
+    padding: 10px 15px;
+}
+
+.dropdown-menu-btn-filters {
+    width: 100%;
+    padding: 5px;
+}
+
+.filter-sample {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    float: left;
+    background-color: #ccc;
+    border: none;
+    border-radius: 2px;
+}
+
+.filter-sample-selected {
+    border: 1px solid #000;
+}
+
+.filter-label {
+    margin: 6px 10px;
+    font-size: 10pt;
+}
+
+.svg-icon {
+    padding-top: 6px;
+}

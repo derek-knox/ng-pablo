@@ -1,0 +1,6 @@
+<div class="overlays-container">
+    <canvas #photoCanvas class="shadow" width="{{sizeSettings.sizes[sizeSettings.selectedSizeIndex].width}}" height="{{sizeSettings.sizes[sizeSettings.selectedSizeIndex].height}}" (click)="onClearOverlaysSelection()">
+    </canvas>
+    <app-overlay-logo [sizeSettings]="sizeSettings" [logoSettings]="logoSettings"></app-overlay-logo>
+    <app-overlay-texts [sizeSettings]="sizeSettings" [textSettings]="textSettings"></app-overlay-texts>
+</div>

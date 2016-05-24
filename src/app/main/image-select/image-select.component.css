@@ -1,0 +1,17 @@
+img {
+    max-width: 160px;
+}
+
+.image-list {
+    margin: 10px 0;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.image {
+    margin: 0 0 10px;
+}
+
+.image-container {
+    width: 100%;
+}

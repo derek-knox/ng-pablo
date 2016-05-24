@@ -1,0 +1,34 @@
+input {
+    margin: 0;
+    background-color: transparent;
+    z-index: 0;
+}
+
+.drag-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.isBold {
+    font-weight: bold;
+}
+
+.isItalic {
+    font-style: italic;
+}
+
+.size-normal {
+    font-size: 100%;
+}
+
+.size-large {
+    font-size: 110%;
+}
+
+.size-largest {
+    font-size: 120%;
+}

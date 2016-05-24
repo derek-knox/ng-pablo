@@ -1,0 +1,34 @@
+<!-- Edit Logo/Graphic -->
+<div *ngIf="logoSettings.selectedFile">
+
+    <!-- Main Buttons -->
+    <div class="logo-type-container inline-block pointer" (click)="onVisibilityToggle()">
+        <div class="logo-type"><img class="svg-icon" src="assets/svg/remove_red_eye.svg"></div>
+        <p class="logo-type-label text-center"><span>{{logoSettings.isGraphicHidden ? 'Show' : 'Hide'}}</span></p>
+    </div>
+    <div class="logo-type-container inline-block pointer">
+        <div class="logo-type"><img class="svg-icon" src="assets/svg/refresh.svg"></div>
+        <p class="logo-type-label text-center">Replace</p>
+        <input type="file" (change)="onSelectFileChange($event)" title=" " />
+    </div>
+    <div class="logo-type-container inline-block pointer" (click)="onRemove()">
+        <div class="logo-type"><img class="svg-icon" src="assets/svg/delete.svg"></div>
+        <p class="logo-type-label text-center">Remove</p>
+    </div>
+
+    <!-- Sliders -->
+    <p>Size: {{logoSettings.size}}px</p>
+    <input type="range" min="9" max="135" [(ngModel)]="logoSettings.size" (input)="logoSettingsChange.emit(logoSettings)">
+
+    <p>Radius: {{logoSettings.radius}}%</p>
+    <input type="range" min="0" max="100" [(ngModel)]="logoSettings.radius" (input)="logoSettingsChange.emit(logoSettings)">
+
+</div>
+
+<!-- Insert Logo/Graphic -->
+<div *ngIf="!logoSettings.selectedFile">
+    <div class="upload-file-container">
+        <input type="file" (change)="onSelectFileChange($event)" title=" " />
+        <span class="btn btn-block btn-lg text-center">Insert Logo or Graphic</span>
+    </div>
+</div>

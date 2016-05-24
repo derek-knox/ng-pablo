@@ -1,0 +1,5 @@
+<div class="size-select-container">
+    <div class="btn inline-block pointer pinterest" [ngClass]="{ selected:  0 === sizeSettings.selectedSizeIndex }" selectable (isSelectedChange)="onIsSelectedChange(0)"><img class="svg-icon" src="assets/svg/pinterest.svg"></div>
+    <div class="btn inline-block pointer instagram size-select-container-center-spacer" [ngClass]="{ selected:  1 === sizeSettings.selectedSizeIndex }" selectable (isSelectedChange)="onIsSelectedChange(1)"><img class="svg-icon" src="assets/svg/instagram.svg"></div>
+    <div class="btn inline-block pointer twitter-and-facebook" [ngClass]="{ selected: 2 === sizeSettings.selectedSizeIndex }" selectable (isSelectedChange)="onIsSelectedChange(2)"><img class="svg-icon" src="assets/svg/twitter.svg"><img class="svg-icon" src="assets/svg/facebook.svg"></div>
+</div>

@@ -1,0 +1,6 @@
+<div class="overlay" [style.width.px]="sizeSettings.sizes[sizeSettings.selectedSizeIndex].width" [style.height.px]="sizeSettings.sizes[sizeSettings.selectedSizeIndex].height" [hidden]="logoSettings.isGraphicHidden">
+    <div class="overlay-bounds" *ngIf="logoSettings.selectedFile" move-clamped-to-parent [style.width.px]="logoSettings.size" [style.height.px]="logoSettings.size" [ngClass]="{ selected: isSelected }" (mousedown)="onSelect()">
+        <div class="logo" [style.width.px]="logoSettings.size" [style.height.px]="logoSettings.size" [style.border-radius.%]="logoSettings.radius/2" [ngStyle]="{'background-image': 'url(' + logoSettings.selectedFile.url + ')', 'background-size': logoSettings.size + 'px'}">
+        </div>
+    </div>
+</div>
